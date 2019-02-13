@@ -1,3 +1,15 @@
+@fontface {
+  src: url(fonts/NotoSansCJKjp-Regular.otf);
+  font-family: Noto Sans CJK JP; }
+
+@fontface {
+  src: url(fonts/SignPainter.ttc);
+  font-family: SignPainter; }
+
+@fontface {
+  src: url(fonts/brandon-grotesque-bold-italic-58a8a48221563.otf);
+  font-family: Brandon Grotesque; }
+
 @media screen and (min-width: 1201px) {
   .hero_sec {
     width: 100%;
