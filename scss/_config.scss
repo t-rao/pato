@@ -1,0 +1,36 @@
+$Primarycolor:#ffbf2b;
+@mixin en_text{
+  h2::before {
+    color: #000;
+    content: attr(data-bg-text);
+    display: block;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: Brandon Grotesque;
+    line-height: 1;
+    position: absolute;
+  bottom: 10px;
+    opacity: 0.05;
+    z-index: -1;
+}
+}
+@mixin mediaSm{
+  @media screen and (max-width:500px){
+    @content;
+  }
+}
+@mixin mediaMd{
+  @media screen and (min-width:501px) and (max-width:768px){
+    @content;
+  }
+}
+@mixin mediaLg{
+  @media screen and (min-width:769px) and (max-width:1200px){
+    @content;
+  }
+}
+@mixin mediaXl{
+  @media screen and (min-width:1201px){
+    @content;
+  }
+}
