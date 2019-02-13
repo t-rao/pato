@@ -1,14 +1,14 @@
-@fontface {
-  src: url(fonts/NotoSansCJKjp-Regular.otf);
-  font-family: Noto Sans CJK JP; }
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url(fonts/brandon-grotesque-bold-italic-58a8a48221563.otf); }
 
-@fontface {
-  src: url(fonts/SignPainter.ttc);
-  font-family: SignPainter; }
+@font-face {
+  font-family: "NotoSansCJKJP";
+  src: url(fonts/NotoSansCJKJP-Regular.otf); }
 
-@fontface {
-  src: url(fonts/brandon-grotesque-bold-italic-58a8a48221563.otf);
-  font-family: Brandon Grotesque; }
+@font-face {
+  font-family: "SignPainter";
+  src: url(fonts/SignPainter.ttc); }
 
 @media screen and (min-width: 1201px) {
   .hero_sec {
@@ -35,7 +35,7 @@
         align-items: center; }
       .hero_sec .main_visual li {
         color: white;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 14px;
         align-items: center;
         text-align: center; }
@@ -53,12 +53,12 @@
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 26px; }
       .hero_sec .sec_logo h4 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-weight: 500;
         font-size: 14px;
         background-color: #ff771d;
@@ -69,11 +69,11 @@
         border-radius: 100px;
         margin-bottom: 20px; }
       .hero_sec .sec_logo h3 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 26px;
         letter-spacing: 2px; }
       .hero_sec .sec_logo p {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-weight: 500;
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
@@ -91,7 +91,7 @@
     width: 1048px;
     margin: 0 auto; }
     .usual_part h2 {
-      font-family: Noto Sans CJK JP;
+      font-family: "NotoSansCJKJP";
       font-size: 36px;
       margin: 80px auto 100px;
       position: relative; }
@@ -101,7 +101,7 @@
       display: block;
       font-size: 70px;
       letter-spacing: 5px;
-      font-family: Brandon Grotesque;
+      font-family: "BrandonGrotesque";
       line-height: 1;
       position: absolute;
       bottom: 10px;
@@ -119,7 +119,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 50px;
-      font-family: Noto Sans CJK JP; }
+      font-family: "NotoSansCJKJP"; }
       .usual_part .card_grid li {
         list-style: none; }
       .usual_part .card_grid .card_grid_item {
@@ -179,14 +179,14 @@
         text-align: center; }
         .soc_med .inner_soc_med .grid_container p {
           margin-top: 20px;
-          font-family: Noto Sans CJK JP;
+          font-family: "NotoSansCJKJP";
           letter-spacing: 2px;
           font-weight: 600;
           font-size: 18px; }
       .soc_med .inner_soc_med h2 {
         color: white;
         font-size: 48px;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         text-align: center;
         margin-top: 40px;
         letter-spacing: 4px; }
@@ -194,7 +194,7 @@
         color: white;
         font-size: 28px;
         font-weight: lighter;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         text-align: center;
         letter-spacing: 2px;
         margin-top: 20px; }
@@ -209,7 +209,7 @@
     width: 1048px;
     margin: 0 auto; }
     .points h2 {
-      font-family: Noto Sans CJK JP;
+      font-family: "NotoSansCJKJP";
       font-size: 36px;
       margin: 80px auto 100px;
       position: relative; }
@@ -219,7 +219,7 @@
       display: block;
       font-size: 70px;
       letter-spacing: 5px;
-      font-family: Brandon Grotesque;
+      font-family: "BrandonGrotesque";
       line-height: 1;
       position: absolute;
       bottom: 10px;
@@ -227,13 +227,13 @@
       z-index: -1; }
     .points .title {
       color: #fd7a22;
-      font-family: SignPainter;
+      font-family: "SignPainter";
       width: 200px;
       margin: 0 auto;
       text-align: center;
       font-size: 70px; }
     .points .sub_title {
-      font-family: Noto Sans CJK JP;
+      font-family: "NotoSansCJKJP";
       width: 600px;
       margin: 0 auto;
       text-align: center;
@@ -245,7 +245,7 @@
       margin: 10px auto 40px;
       border-bottom: 5px solid #fd7a22; }
     .points .container h3 {
-      font-family: Noto Sans CJK JP;
+      font-family: "NotoSansCJKJP";
       font-size: 30px;
       text-align: center;
       letter-spacing: 2px;
@@ -253,7 +253,7 @@
       .points .container h3 span {
         color: #ffbf2b; }
     .points .container .sec_foo {
-      font-family: Noto Sans CJK JP;
+      font-family: "NotoSansCJKJP";
       font-size: 22px;
       font-weight: 600;
       text-align: center;
@@ -308,7 +308,7 @@
         align-items: center; }
       .hero_sec .main_visual li {
         color: white;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 14px;
         align-items: center;
         text-align: center; }
@@ -326,12 +326,12 @@
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 26px; }
       .hero_sec .sec_logo h4 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-weight: 500;
         font-size: 14px;
         background-color: #ff771d;
@@ -342,11 +342,11 @@
         border-radius: 100px;
         margin-bottom: 20px; }
       .hero_sec .sec_logo h3 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 26px;
         letter-spacing: 2px; }
       .hero_sec .sec_logo p {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-weight: 500;
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
@@ -380,7 +380,7 @@
         align-items: center; }
       .hero_sec .main_visual li {
         color: white;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 14px;
         align-items: center;
         text-align: center; }
@@ -398,12 +398,12 @@
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 26px; }
       .hero_sec .sec_logo h4 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-weight: 500;
         font-size: 14px;
         background-color: #ff771d;
@@ -414,11 +414,11 @@
         border-radius: 100px;
         margin-bottom: 20px; }
       .hero_sec .sec_logo h3 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 26px;
         letter-spacing: 2px; }
       .hero_sec .sec_logo p {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-weight: 500;
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
@@ -452,7 +452,7 @@
         align-items: center; }
       .hero_sec .main_visual li {
         color: white;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 14px;
         align-items: center;
         text-align: center; }
@@ -470,12 +470,12 @@
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 26px; }
       .hero_sec .sec_logo h4 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-weight: 500;
         font-size: 14px;
         background-color: #ff771d;
@@ -486,11 +486,11 @@
         border-radius: 100px;
         margin-bottom: 20px; }
       .hero_sec .sec_logo h3 {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 26px;
         letter-spacing: 2px; }
       .hero_sec .sec_logo p {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-weight: 500;
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
@@ -508,7 +508,7 @@
     width: 95%;
     margin: 0 auto; }
     .usual_part h2 {
-      font-family: Noto Sans CJK JP;
+      font-family: "NotoSansCJKJP";
       font-size: 26px;
       margin: 80px auto 80px;
       position: relative; }
@@ -518,7 +518,7 @@
       display: block;
       font-size: 32px;
       letter-spacing: 5px;
-      font-family: Brandon Grotesque;
+      font-family: "BrandonGrotesque";
       line-height: 1;
       position: absolute;
       bottom: 20px;
@@ -536,7 +536,7 @@
       display: grid;
       grid-template-rows: 1fr 1fr;
       grid-row-gap: 50px;
-      font-family: Noto Sans CJK JP; }
+      font-family: "NotoSansCJKJP"; }
       .usual_part .card_grid li {
         list-style: none; }
       .usual_part .card_grid .card_grid_item {
@@ -605,14 +605,14 @@
             width: 100%; }
         .soc_med .inner_soc_med .grid_container p {
           margin-top: 20px;
-          font-family: Noto Sans CJK JP;
+          font-family: "NotoSansCJKJP";
           letter-spacing: 2px;
           font-weight: 600;
           font-size: 18px; }
       .soc_med .inner_soc_med h2 {
         color: white;
         font-size: 32px;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         text-align: center;
         margin-top: 40px;
         letter-spacing: 4px; }
@@ -620,7 +620,7 @@
         color: white;
         font-size: 20px;
         font-weight: lighter;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         text-align: center;
         letter-spacing: 2px;
         margin-top: 20px; }
@@ -641,7 +641,7 @@
     .points h2 {
       width: 98%;
       margin: 0 auto;
-      font-family: Noto Sans CJK JP;
+      font-family: "NotoSansCJKJP";
       font-size: 26px;
       margin: 80px auto 80px;
       position: relative; }
@@ -651,7 +651,7 @@
       display: block;
       font-size: 32px;
       letter-spacing: 5px;
-      font-family: Brandon Grotesque;
+      font-family: "BrandonGrotesque";
       line-height: 1;
       position: absolute;
       bottom: 20px;
@@ -659,13 +659,13 @@
       z-index: -1; }
     .points .title {
       color: #fd7a22;
-      font-family: SignPainter;
+      font-family: "SignPainter";
       width: 200px;
       margin: 0 auto;
       text-align: center;
       font-size: 70px; }
     .points .sub_title {
-      font-family: Noto Sans CJK JP;
+      font-family: "NotoSansCJKJP";
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -683,7 +683,7 @@
       .points .container h3 {
         width: 96%;
         margin: 0 auto;
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 22px;
         text-align: center;
         letter-spacing: 2px;
@@ -691,7 +691,7 @@
         .points .container h3 span {
           color: #ffbf2b; }
       .points .container .sec_foo {
-        font-family: Noto Sans CJK JP;
+        font-family: "NotoSansCJKJP";
         font-size: 22px;
         font-weight: 600;
         text-align: center;
@@ -719,7 +719,291 @@
       .points .container .inner_container div {
         width: 250px; }
       .points .container .inner_container div img {
-        width: 100%; } }
+        width: 100%; }
+  .banner_conv .title {
+    color: #fd7a22;
+    font-family: "SignPainter";
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 70px; }
+  .banner_conv .sub_title {
+    font-family: "NotoSansCJKJP";
+    width: 96%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .banner_conv .orange_line {
+    width: 250px;
+    height: 10px;
+    margin: 10px auto 40px;
+    border-bottom: 5px solid #fd7a22; }
+  .banner_conv .banner_01 {
+    width: 100%;
+    min-width: 300px;
+    margin: 0 auto; }
+    .banner_conv .banner_01 img {
+      width: 100%; }
+  .banner_conv .banner_sub_heading {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Arial; }
+  .banner_conv .banner_sub_heading + p {
+    width: 96%;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial; }
+  .banner_conv .message_con {
+    width: 95%;
+    height: 300px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 30px; }
+    .banner_conv .message_con .mess_grid_container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 30% 70%;
+      text-align: center;
+      align-items: center; }
+      .banner_conv .message_con .mess_grid_container .user_pic_contain {
+        width: 90px;
+        height: 90px; }
+        .banner_conv .message_con .mess_grid_container .user_pic_contain img {
+          width: 100%; }
+        .banner_conv .message_con .mess_grid_container .user_pic_contain p {
+          font-size: 12px;
+          font-family: "NotoSansCJKJP";
+          margin-top: 10px;
+          letter-spacing: 1px; }
+    .banner_conv .message_con .message_bgl {
+      font-size: 12px;
+      font-weight: bold;
+      font-family: "NotoSansCJKJP";
+      background-image: url(../images/meaage_lt.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 50px;
+      padding-top: 15px;
+      text-align: center; }
+      .banner_conv .message_con .message_bgl span {
+        color: #ffb529; }
+    .banner_conv .message_con .mess_grid_container:nth-child(2) {
+      grid-template-columns: 70% 30%; }
+      .banner_conv .message_con .mess_grid_container:nth-child(2) .user_pic_contain {
+        grid-column: 2/3;
+        grid-row: 1/1; }
+      .banner_conv .message_con .mess_grid_container:nth-child(2) .message_bgl {
+        grid-column: 1/2;
+        grid-row: 1/1;
+        background-image: url(../images/meaage_rt.png); }
+  .sub_serv {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px; }
+    .sub_serv .title {
+      color: #fd7a22;
+      font-family: "SignPainter";
+      width: 200px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 70px; }
+    .sub_serv .sub_title {
+      font-family: "NotoSansCJKJP";
+      width: 96%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 16px;
+      font-weight: lighter;
+      letter-spacing: 2px; }
+    .sub_serv .orange_line {
+      width: 250px;
+      height: 10px;
+      margin: 10px auto 40px;
+      border-bottom: 5px solid #fd7a22; }
+    .sub_serv .serv_white_bg {
+      width: 98%;
+      margin: 50px auto;
+      background-color: white;
+      padding: 20px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+      font-family: "NotoSansCJKJP"; }
+      .sub_serv .serv_white_bg p {
+        font-size: 14px; }
+      .sub_serv .serv_white_bg .galery_img {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 10px; }
+        .sub_serv .serv_white_bg .galery_img div {
+          margin: 5px;
+          margin-bottom: 0px; }
+          .sub_serv .serv_white_bg .galery_img div img {
+            width: 100%; }
+    .sub_serv .serv_white_bg:nth-child(2) {
+      background-color: red; }
+  .safty_sec {
+    width: 95%;
+    margin: 0 auto; }
+    .safty_sec h2 {
+      width: 98%;
+      margin: 0 auto;
+      font-family: "NotoSansCJKJP";
+      font-size: 26px;
+      margin: 80px auto 80px;
+      margin-bottom: 10px;
+      position: relative; }
+    .safty_sec h2::before {
+      color: #000;
+      content: attr(data-bg-text);
+      display: block;
+      font-size: 32px;
+      letter-spacing: 5px;
+      font-family: "BrandonGrotesque";
+      line-height: 1;
+      position: absolute;
+      bottom: 20px;
+      opacity: 0.05;
+      z-index: -1; }
+    .safty_sec h2 + p {
+      font-family: "NotoSansCJKJP";
+      font-size: 14px;
+      letter-spacing: 2px; }
+    .safty_sec .safty_grid_container {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .safty_sec .safty_grid_container .grid_item_safty {
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-top: 60px;
+        background-image: url(../images/point_01.png);
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .safty_sec .safty_grid_container .grid_item_safty .safty_pic {
+          width: 150px;
+          margin: 0 auto; }
+          .safty_sec .safty_grid_container .grid_item_safty .safty_pic img {
+            width: 100%; }
+        .safty_sec .safty_grid_container .grid_item_safty h3 {
+          width: 200px;
+          text-align: center;
+          margin: 0 auto;
+          margin-top: 30px;
+          font-family: "NotoSansCJKJP";
+          color: #ffb529; }
+      .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
+        background-image: url(../images/point_03.png); }
+      .safty_sec .safty_grid_container .grid_item_safty:nth-child(3) {
+        background-image: url(../images/point_02.png); }
+      .safty_sec .safty_grid_container .grid_item_safty:nth-child(4) {
+        background-image: url(../images/point_04.png); }
+  .banner_02 {
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-image: url(../images/banner-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    padding-top: 75px;
+    font-weight: 600;
+    font-family: "NotoSansCJKJP"; }
+    .banner_02 p {
+      width: 200px;
+      margin-right: auto;
+      margin-left: 30px; }
+    .banner_02 img {
+      width: 100%; }
+  .foo_sec_logo {
+    width: 320px;
+    text-align: center;
+    height: 530px;
+    margin: 0 auto;
+    padding-top: 40px; }
+    .foo_sec_logo h1 {
+      text-align: center; }
+    .foo_sec_logo h2 {
+      font-family: "NotoSansCJKJP";
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 26px; }
+    .foo_sec_logo h4 {
+      font-family: "NotoSansCJKJP";
+      font-weight: 500;
+      font-size: 14px;
+      background-color: #ff771d;
+      width: 220px;
+      padding: 5px;
+      margin: 0 auto;
+      color: white;
+      border-radius: 100px;
+      margin-bottom: 20px; }
+    .foo_sec_logo h3 {
+      font-family: "NotoSansCJKJP";
+      font-size: 26px;
+      letter-spacing: 2px; }
+    .foo_sec_logo p {
+      font-family: "NotoSansCJKJP";
+      font-weight: 500;
+      letter-spacing: 2px; }
+    .foo_sec_logo .contact_info {
+      width: 280px;
+      height: 300px;
+      margin: 40px auto 0; }
+      .foo_sec_logo .contact_info a {
+        width: inherit;
+        display: block; }
+        .foo_sec_logo .contact_info a img {
+          width: 100%; }
+      .foo_sec_logo .contact_info .cont_link {
+        margin-bottom: 10px; }
+  footer {
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+    background-image: linear-gradient(to right, #ffb62a, #ff771d); }
+    footer .inner_footer {
+      width: 95%;
+      margin: 0 auto;
+      font-family: "NotoSansCJKJP";
+      color: white; }
+      footer .inner_footer ul {
+        width: 100%;
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        text-align: center; }
+        footer .inner_footer ul li {
+          margin-right: 20px;
+          margin-bottom: 20px;
+          font-size: 12px;
+          align-items: center;
+          align-content: center;
+          padding-left: 15px;
+          border-left: 1px solid white; }
+      footer .inner_footer p {
+        font-size: 12px;
+        margin-top: 10px;
+        text-align: center; } }
 
 * {
   padding: 0;
