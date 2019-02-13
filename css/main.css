@@ -281,7 +281,9 @@
     .points .container .inner_container div {
       width: 300px; }
     .points .container .inner_container div img {
-      width: 100%; } }
+      width: 100%; }
+  .scroll_app {
+    display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .hero_sec {
@@ -359,7 +361,9 @@
           .hero_sec .sec_logo .contact_info a img {
             width: 100%; }
         .hero_sec .sec_logo .contact_info .cont_link {
-          margin-bottom: 10px; } }
+          margin-bottom: 10px; }
+  .scroll_app {
+    display: none; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .hero_sec {
@@ -431,7 +435,9 @@
           .hero_sec .sec_logo .contact_info a img {
             width: 100%; }
         .hero_sec .sec_logo .contact_info .cont_link {
-          margin-bottom: 10px; } }
+          margin-bottom: 10px; }
+  .scroll_app {
+    display: none; } }
 
 @media screen and (max-width: 500px) {
   .hero_sec {
@@ -1003,7 +1009,19 @@
       footer .inner_footer p {
         font-size: 12px;
         margin-top: 10px;
-        text-align: center; } }
+        text-align: center; }
+  .scroll_app {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 1; }
+    .scroll_app .inner_scroll {
+      display: flex;
+      flex-direction: row-reverse; }
+      .scroll_app .inner_scroll img {
+        width: 100%; } }
 
 * {
   padding: 0;
