@@ -90,7 +90,8 @@
   .usual_part {
     width: 960px;
     height: 1200px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-top: 150px; }
     .usual_part h2 {
       font-family: "NotoSansCJKJP";
       font-size: 26px;
@@ -167,10 +168,10 @@
             border-left: none; }
   .soc_med {
     width: 100%;
-    height: 480px;
+    height: 562px;
     background-image: url("../images/gradient_bg.jpg");
-    background-position: -200px 100px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    padding-bottom: 30px; }
     .soc_med ul {
       list-style: none; }
     .soc_med .inner_soc_med {
@@ -199,7 +200,8 @@
         font-size: 45px;
         font-family: "NotoSansCJKJP";
         text-align: center;
-        margin-top: 40px;
+        padding-top: 40px;
+        margin-bottom: 50px;
         letter-spacing: 4px; }
       .soc_med .inner_soc_med h4 {
         color: white;
@@ -208,7 +210,7 @@
         font-family: "NotoSansCJKJP";
         text-align: center;
         letter-spacing: 2px;
-        margin-top: 20px; }
+        margin-top: 40px; }
       .soc_med .inner_soc_med .soc_mediam {
         width: 600px;
         margin: 40px auto 0;
@@ -271,15 +273,17 @@
         width: 96%;
         margin: 0 auto;
         font-family: "NotoSansCJKJP";
-        font-size: 22px;
+        font-size: 32px;
+        font-weight: bold;
         text-align: center;
         letter-spacing: 2px;
-        margin-bottom: 60px; }
+        margin-top: 50px;
+        margin-bottom: 80px; }
         .points .container h3 span {
           color: #ffbf2b; }
       .points .container .sec_foo {
         font-family: "NotoSansCJKJP";
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
         text-align: center;
         letter-spacing: 2px;
@@ -602,6 +606,8 @@
   .scroll_app {
     display: none; }
   .pc_logo {
+    display: none; }
+  .mobile {
     display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -761,10 +767,10 @@
             border-left: none; }
   .soc_med {
     width: 100%;
-    height: 480px;
+    height: 562px;
     background-image: url("../images/gradient_bg.jpg");
-    background-position: -200px 100px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    padding-bottom: 30px; }
     .soc_med ul {
       list-style: none; }
     .soc_med .inner_soc_med {
@@ -792,7 +798,8 @@
         font-size: 32px;
         font-family: "NotoSansCJKJP";
         text-align: center;
-        margin-top: 40px;
+        padding-top: 40px;
+        margin-bottom: 50px;
         letter-spacing: 4px; }
       .soc_med .inner_soc_med h4 {
         color: white;
@@ -801,7 +808,7 @@
         font-family: "NotoSansCJKJP";
         text-align: center;
         letter-spacing: 2px;
-        margin-top: 20px; }
+        margin-top: 40px; }
       .soc_med .inner_soc_med .soc_mediam {
         width: 600px;
         margin: 40px auto 0;
@@ -1369,10 +1376,10 @@
             border-left: none; }
   .soc_med {
     width: 100%;
-    height: 480px;
+    height: 562px;
     background-image: url("../images/gradient_bg.jpg");
-    background-position: -200px 100px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    padding-bottom: 30px; }
     .soc_med ul {
       list-style: none; }
     .soc_med .inner_soc_med {
@@ -1400,7 +1407,8 @@
         font-size: 32px;
         font-family: "NotoSansCJKJP";
         text-align: center;
-        margin-top: 40px;
+        padding-top: 40px;
+        margin-bottom: 50px;
         letter-spacing: 4px; }
       .soc_med .inner_soc_med h4 {
         color: white;
@@ -1409,7 +1417,7 @@
         font-family: "NotoSansCJKJP";
         text-align: center;
         letter-spacing: 2px;
-        margin-top: 20px; }
+        margin-top: 40px; }
       .soc_med .inner_soc_med .soc_mediam {
         width: 600px;
         margin: 40px auto 0;
@@ -1919,11 +1927,18 @@
       .usual_part .img_conta img {
         width: 100%; }
     .usual_part .card_grid {
-      width: 300px;
+      width: 98%;
       margin: 0 auto 150px;
       display: grid;
-      grid-template-rows: 1fr 1fr;
-      grid-row-gap: 50px;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 10px;
+      margin-top: 60px;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      overflow-scrolling: touch;
+      -webkit-overflow-scrolling: touch;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       font-family: "NotoSansCJKJP"; }
       .usual_part .card_grid li {
         list-style: none; }
@@ -1950,7 +1965,7 @@
             font-size: 14px;
             letter-spacing: 1px; }
         .usual_part .card_grid .card_grid_item .para_cant {
-          width: 200px;
+          width: 260px;
           margin: auto;
           font-size: 14px;
           letter-spacing: 1px; }
@@ -2002,7 +2017,7 @@
         font-size: 32px;
         font-family: "NotoSansCJKJP";
         text-align: center;
-        margin-top: 40px;
+        margin-bottom: 40px;
         letter-spacing: 4px; }
       .soc_med .inner_soc_med h4 {
         color: white;
