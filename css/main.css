@@ -13,7 +13,7 @@
 @media screen and (min-width: 1201px) {
   .hero_sec {
     width: 100%;
-    min-width: 1200px;
+    min-width: 700px;
     margin: 0 auto;
     display: flex;
     flex-direction: row; }
@@ -88,202 +88,8 @@
         .hero_sec .sec_logo .contact_info .cont_link {
           margin-bottom: 10px; }
   .usual_part {
-    width: 1048px;
-    margin: 0 auto; }
-    .usual_part h2 {
-      font-family: "NotoSansCJKJP";
-      font-size: 36px;
-      margin: 80px auto 100px;
-      position: relative; }
-    .usual_part h2::before {
-      color: #000;
-      content: attr(data-bg-text);
-      display: block;
-      font-size: 70px;
-      letter-spacing: 5px;
-      font-family: "BrandonGrotesque";
-      line-height: 1;
-      position: absolute;
-      bottom: 10px;
-      opacity: 0.05;
-      z-index: -1; }
-    .usual_part .img_conta {
-      width: 900px;
-      height: 455px;
-      margin: 0 auto 30px; }
-      .usual_part .img_conta img {
-        width: 100%; }
-    .usual_part .card_grid {
-      width: 800px;
-      margin: 0 auto 250px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-column-gap: 50px;
-      font-family: "NotoSansCJKJP"; }
-      .usual_part .card_grid li {
-        list-style: none; }
-      .usual_part .card_grid .card_grid_item {
-        height: 450px;
-        padding: 30px;
-        background-color: white;
-        border-radius: 20px;
-        display: grid;
-        grid-template-rows: 150px 160px 80px;
-        grid-row-gap: 30px 50px;
-        align-items: center;
-        text-align: center; }
-        .usual_part .card_grid .card_grid_item .avatar {
-          width: 200px;
-          margin: auto; }
-          .usual_part .card_grid .card_grid_item .avatar .avatar_pic {
-            width: 120px;
-            margin: auto; }
-            .usual_part .card_grid .card_grid_item .avatar .avatar_pic img {
-              width: 100%; }
-          .usual_part .card_grid .card_grid_item .avatar p {
-            margin-top: 5px;
-            font-size: 14px;
-            letter-spacing: 1px; }
-        .usual_part .card_grid .card_grid_item .para_cant {
-          font-size: 14px;
-          letter-spacing: 1px; }
-        .usual_part .card_grid .card_grid_item .info_grid {
-          width: 300px;
-          margin: auto;
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr; }
-          .usual_part .card_grid .card_grid_item .info_grid li {
-            border-left: 1px solid #666666;
-            text-align: center; }
-            .usual_part .card_grid .card_grid_item .info_grid li p {
-              font-size: 12px; }
-            .usual_part .card_grid .card_grid_item .info_grid li p:nth-child(1) {
-              font-size: 25px !important;
-              font-weight: bold; }
-          .usual_part .card_grid .card_grid_item .info_grid li:nth-child(1) {
-            border-left: none; }
-  .soc_med {
-    width: 100%;
-    height: 600px;
-    background-image: url("../images/gradient_bg.jpg");
-    background-position: 0 100px;
-    background-repeat: no-repeat; }
-    .soc_med ul {
-      list-style: none; }
-    .soc_med .inner_soc_med {
-      width: 1048px;
-      margin: auto; }
-      .soc_med .inner_soc_med .grid_container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        text-align: center; }
-        .soc_med .inner_soc_med .grid_container p {
-          margin-top: 20px;
-          font-family: "NotoSansCJKJP";
-          letter-spacing: 2px;
-          font-weight: 600;
-          font-size: 18px; }
-      .soc_med .inner_soc_med h2 {
-        color: white;
-        font-size: 48px;
-        font-family: "NotoSansCJKJP";
-        text-align: center;
-        margin-top: 40px;
-        letter-spacing: 4px; }
-      .soc_med .inner_soc_med h4 {
-        color: white;
-        font-size: 28px;
-        font-weight: lighter;
-        font-family: "NotoSansCJKJP";
-        text-align: center;
-        letter-spacing: 2px;
-        margin-top: 20px; }
-      .soc_med .inner_soc_med .soc_mediam {
-        width: 750px;
-        margin: 40px auto 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-        text-align: center; }
-  .points {
-    width: 1048px;
-    margin: 0 auto; }
-    .points h2 {
-      font-family: "NotoSansCJKJP";
-      font-size: 36px;
-      margin: 80px auto 100px;
-      position: relative; }
-    .points h2::before {
-      color: #000;
-      content: attr(data-bg-text);
-      display: block;
-      font-size: 70px;
-      letter-spacing: 5px;
-      font-family: "BrandonGrotesque";
-      line-height: 1;
-      position: absolute;
-      bottom: 10px;
-      opacity: 0.05;
-      z-index: -1; }
-    .points .title {
-      color: #fd7a22;
-      font-family: "SignPainter";
-      width: 200px;
-      margin: 0 auto;
-      text-align: center;
-      font-size: 70px; }
-    .points .sub_title {
-      font-family: "NotoSansCJKJP";
-      width: 600px;
-      margin: 0 auto;
-      text-align: center;
-      font-size: 20px;
-      font-weight: lighter; }
-    .points .orange_line {
-      width: 450px;
-      height: 10px;
-      margin: 10px auto 40px;
-      border-bottom: 5px solid #fd7a22; }
-    .points .container h3 {
-      font-family: "NotoSansCJKJP";
-      font-size: 30px;
-      text-align: center;
-      letter-spacing: 2px;
-      margin-bottom: 60px; }
-      .points .container h3 span {
-        color: #ffbf2b; }
-    .points .container .sec_foo {
-      font-family: "NotoSansCJKJP";
-      font-size: 22px;
-      font-weight: 600;
-      text-align: center;
-      letter-spacing: 2px;
-      margin: 40px auto 100px; }
-    .points .container .inner_container {
-      margin-top: 60px;
-      white-space: nowrap;
-      overflow-y: hidden;
-      overflow-x: scroll;
-      overflow-scrolling: touch;
-      -webkit-overflow-scrolling: touch;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 30px; }
-    .points .container .inner_container {
-      overflow-y: scroll;
-      scrollbar-width: none;
-      /* Firefox */
-      -ms-overflow-style: none;
-      /* IE 10+ */ }
-    .points .container .inner_container::-webkit-scrollbar {
-      /* WebKit */
-      width: 0; }
-    .points .container .inner_container div {
-      width: 300px; }
-    .points .container .inner_container div img {
-      width: 100%; }
-  .usual_part {
-    width: 95%;
+    width: 960px;
+    height: 1200px;
     margin: 0 auto; }
     .usual_part h2 {
       font-family: "NotoSansCJKJP";
@@ -303,17 +109,17 @@
       opacity: 0.05;
       z-index: -1; }
     .usual_part .img_conta {
-      width: 95%;
-      height: 300px;
+      width: 900px;
+      height: 400px;
       margin: 0 auto 10px; }
       .usual_part .img_conta img {
         width: 100%; }
     .usual_part .card_grid {
-      width: 700px;
+      width: 750px;
       margin: 120px auto;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-column-gap: 35px;
+      grid-column-gap: 60px;
       font-family: "NotoSansCJKJP"; }
       .usual_part .card_grid li {
         list-style: none; }
@@ -336,11 +142,11 @@
             .usual_part .card_grid .card_grid_item .avatar .avatar_pic img {
               width: 100%; }
           .usual_part .card_grid .card_grid_item .avatar p {
-            margin-top: 5px;
+            margin-top: 10px;
             font-size: 14px;
             letter-spacing: 1px; }
         .usual_part .card_grid .card_grid_item .para_cant {
-          width: 200px;
+          width: 260px;
           margin: auto;
           font-size: 14px;
           letter-spacing: 1px; }
@@ -368,7 +174,7 @@
     .soc_med ul {
       list-style: none; }
     .soc_med .inner_soc_med {
-      width: 600px;
+      width: 1024px;
       margin: auto; }
       .soc_med .inner_soc_med .grid_container {
         display: grid;
@@ -378,7 +184,8 @@
         grid-row-gap: 40px;
         text-align: center; }
         .soc_med .inner_soc_med .grid_container div {
-          width: 130px; }
+          width: 150px;
+          margin: 0 auto; }
           .soc_med .inner_soc_med .grid_container div img {
             width: 100%; }
         .soc_med .inner_soc_med .grid_container p {
@@ -389,7 +196,7 @@
           font-size: 18px; }
       .soc_med .inner_soc_med h2 {
         color: white;
-        font-size: 32px;
+        font-size: 45px;
         font-family: "NotoSansCJKJP";
         text-align: center;
         margin-top: 40px;
@@ -419,7 +226,7 @@
     width: 100%;
     margin: 0 auto; }
     .points h2 {
-      width: 600px;
+      width: 960px;
       margin: 0 auto;
       font-family: "NotoSansCJKJP";
       font-size: 26px;
@@ -458,7 +265,7 @@
       margin: 10px auto 40px;
       border-bottom: 5px solid #fd7a22; }
     .points .container {
-      width: 700px;
+      width: 1024px;
       margin: 0 auto; }
       .points .container h3 {
         width: 96%;
@@ -497,7 +304,8 @@
         /* WebKit */
         width: 0; }
       .points .container .inner_container div {
-        width: 200px; }
+        width: 230px;
+        margin: 0 auto; }
       .points .container .inner_container div img {
         width: 100%; }
   .banner_conv .title {
@@ -533,7 +341,7 @@
     font-family: Arial;
     font-size: 22px; }
   .banner_conv .banner_sub_heading + p {
-    width: 500px;
+    width: 670px;
     letter-spacing: 2px;
     margin: 0 auto;
     font-size: 16px;
@@ -586,7 +394,7 @@
         background-image: url("../images/meaage_rt.png"); }
   .sub_serv {
     width: 95%;
-    margin: 40px auto 0; }
+    margin: 150px auto 0; }
     .sub_serv .title {
       color: #fd7a22;
       font-family: "SignPainter";
@@ -608,12 +416,14 @@
       margin: 10px auto 40px;
       border-bottom: 5px solid #fd7a22; }
     .sub_serv .serv_white_bg {
-      width: 80%;
+      width: 600px;
       margin: 50px auto;
       background-color: white;
-      padding: 30px 20px;
+      padding: 50px 20px;
       text-align: center;
       font-family: "NotoSansCJKJP"; }
+      .sub_serv .serv_white_bg h3 {
+        margin-bottom: 30px; }
       .sub_serv .serv_white_bg p {
         font-size: 14px;
         width: 400px;
@@ -633,14 +443,13 @@
         width: 400px;
         margin: 0 auto 30px; }
   .safty_sec {
-    width: 95%;
-    margin: 0 auto; }
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 150px; }
     .safty_sec h2 {
-      width: 98%;
-      margin: 0 auto;
+      width: 600px;
       font-family: "NotoSansCJKJP";
       font-size: 26px;
-      margin: 80px auto 10px;
       position: relative; }
     .safty_sec h2::before {
       color: #000;
@@ -657,10 +466,12 @@
     .safty_sec h2 + p {
       font-family: "NotoSansCJKJP";
       font-size: 16px;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      width: 600px;
+      margin-bottom: 50px; }
     .safty_sec .safty_grid_container {
-      width: 100%;
-      margin: 40px auto 0;
+      width: 860px;
+      margin: 40px auto 90px;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -702,11 +513,12 @@
     padding-top: 75px;
     font-weight: 600;
     font-family: "NotoSansCJKJP"; }
-    .banner_02 p {
-      width: 400px;
-      font-size: 22px;
-      margin-right: auto;
-      margin-left: 30px; }
+    .banner_02 div {
+      width: 700px;
+      margin: 0 auto; }
+      .banner_02 div p {
+        width: 400px;
+        font-size: 22px; }
     .banner_02 img {
       width: 100%; }
   .foo_sec_logo {
@@ -759,7 +571,7 @@
     padding-bottom: 30px;
     background-image: linear-gradient(to right, #ffb62a, #ff771d); }
     footer .inner_footer {
-      width: 95%;
+      width: 730px;
       margin: 0 auto;
       font-family: "NotoSansCJKJP";
       color: white; }
@@ -788,6 +600,8 @@
         margin-top: 10px;
         text-align: center; }
   .scroll_app {
+    display: none; }
+  .pc_logo {
     display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -868,7 +682,8 @@
         .hero_sec .sec_logo .contact_info .cont_link {
           margin-bottom: 10px; }
   .usual_part {
-    width: 95%;
+    width: 960px;
+    height: 1200px;
     margin: 0 auto; }
     .usual_part h2 {
       font-family: "NotoSansCJKJP";
@@ -888,17 +703,17 @@
       opacity: 0.05;
       z-index: -1; }
     .usual_part .img_conta {
-      width: 95%;
-      height: 300px;
+      width: 900px;
+      height: 400px;
       margin: 0 auto 10px; }
       .usual_part .img_conta img {
         width: 100%; }
     .usual_part .card_grid {
-      width: 700px;
+      width: 750px;
       margin: 120px auto;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-column-gap: 35px;
+      grid-column-gap: 60px;
       font-family: "NotoSansCJKJP"; }
       .usual_part .card_grid li {
         list-style: none; }
@@ -921,11 +736,11 @@
             .usual_part .card_grid .card_grid_item .avatar .avatar_pic img {
               width: 100%; }
           .usual_part .card_grid .card_grid_item .avatar p {
-            margin-top: 5px;
+            margin-top: 10px;
             font-size: 14px;
             letter-spacing: 1px; }
         .usual_part .card_grid .card_grid_item .para_cant {
-          width: 200px;
+          width: 260px;
           margin: auto;
           font-size: 14px;
           letter-spacing: 1px; }
@@ -953,7 +768,7 @@
     .soc_med ul {
       list-style: none; }
     .soc_med .inner_soc_med {
-      width: 600px;
+      width: 700px;
       margin: auto; }
       .soc_med .inner_soc_med .grid_container {
         display: grid;
@@ -1171,7 +986,7 @@
         background-image: url("../images/meaage_rt.png"); }
   .sub_serv {
     width: 95%;
-    margin: 40px auto 0; }
+    margin: 150px auto 0; }
     .sub_serv .title {
       color: #fd7a22;
       font-family: "SignPainter";
@@ -1193,12 +1008,14 @@
       margin: 10px auto 40px;
       border-bottom: 5px solid #fd7a22; }
     .sub_serv .serv_white_bg {
-      width: 80%;
+      width: 600px;
       margin: 50px auto;
       background-color: white;
-      padding: 30px 20px;
+      padding: 50px 20px;
       text-align: center;
       font-family: "NotoSansCJKJP"; }
+      .sub_serv .serv_white_bg h3 {
+        margin-bottom: 30px; }
       .sub_serv .serv_white_bg p {
         font-size: 14px;
         width: 400px;
@@ -1218,14 +1035,13 @@
         width: 400px;
         margin: 0 auto 30px; }
   .safty_sec {
-    width: 95%;
-    margin: 0 auto; }
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 150px; }
     .safty_sec h2 {
-      width: 98%;
-      margin: 0 auto;
+      width: 600px;
       font-family: "NotoSansCJKJP";
       font-size: 26px;
-      margin: 80px auto 10px;
       position: relative; }
     .safty_sec h2::before {
       color: #000;
@@ -1242,9 +1058,11 @@
     .safty_sec h2 + p {
       font-family: "NotoSansCJKJP";
       font-size: 16px;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      width: 600px;
+      margin-bottom: 50px; }
     .safty_sec .safty_grid_container {
-      width: 100%;
+      width: 700px;
       margin: 40px auto 0;
       display: flex;
       flex-direction: row;
@@ -1287,11 +1105,12 @@
     padding-top: 75px;
     font-weight: 600;
     font-family: "NotoSansCJKJP"; }
-    .banner_02 p {
-      width: 400px;
-      font-size: 22px;
-      margin-right: auto;
-      margin-left: 30px; }
+    .banner_02 div {
+      width: 700px;
+      margin: 0 auto; }
+      .banner_02 div p {
+        width: 400px;
+        font-size: 22px; }
     .banner_02 img {
       width: 100%; }
   .foo_sec_logo {
@@ -1344,7 +1163,7 @@
     padding-bottom: 30px;
     background-image: linear-gradient(to right, #ffb62a, #ff771d); }
     footer .inner_footer {
-      width: 95%;
+      width: 730px;
       margin: 0 auto;
       font-family: "NotoSansCJKJP";
       color: white; }
@@ -1373,14 +1192,24 @@
         margin-top: 10px;
         text-align: center; }
   .scroll_app {
+    display: none; }
+  .pc_logo {
     display: none; } }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .hero_sec {
     width: 100%;
-    height: 700px;
+    height: 500px;
     background-image: url("../images/top_pc_pato_20190128_2_02.jpg");
     background-repeat: no-repeat; }
+    .hero_sec .pc_logo {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 40px; }
+      .hero_sec .pc_logo .pc_logo_inner {
+        width: 100%; }
+        .hero_sec .pc_logo .pc_logo_inner img {
+          width: 100%; }
     .hero_sec .main_visual {
       width: 320px;
       margin: 0 auto;
@@ -1403,12 +1232,15 @@
         border-radius: 100px;
         padding: 10px; }
     .hero_sec .sec_logo {
-      width: 320px;
+      width: 100%;
+      height: 250px;
       text-align: center;
-      height: 530px;
       margin: 0 auto;
-      background-color: #fffffff0;
-      padding-top: 40px; }
+      margin-top: 100px;
+      background-color: #ffffff;
+      padding-top: 20px; }
+      .hero_sec .sec_logo .pc {
+        display: none; }
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
@@ -1437,7 +1269,6 @@
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
         width: 280px;
-        height: 300px;
         margin: 40px auto 0; }
         .hero_sec .sec_logo .contact_info a {
           width: inherit;
@@ -1448,7 +1279,8 @@
           margin-bottom: 10px; }
   .usual_part {
     width: 95%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 230px; }
     .usual_part h2 {
       font-family: "NotoSansCJKJP";
       font-size: 26px;
@@ -1952,14 +1784,24 @@
         margin-top: 10px;
         text-align: center; }
   .scroll_app {
+    display: none; }
+  .pc {
     display: none; } }
 
 @media screen and (max-width: 500px) {
   .hero_sec {
     width: 100%;
-    height: 700px;
+    height: 500px;
     background-image: url("../images/top_pc_pato_20190128_2_02.jpg");
     background-repeat: no-repeat; }
+    .hero_sec .pc_logo {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 40px; }
+      .hero_sec .pc_logo .pc_logo_inner {
+        width: 100%; }
+        .hero_sec .pc_logo .pc_logo_inner img {
+          width: 100%; }
     .hero_sec .main_visual {
       width: 320px;
       margin: 0 auto;
@@ -1982,12 +1824,15 @@
         border-radius: 100px;
         padding: 10px; }
     .hero_sec .sec_logo {
-      width: 320px;
+      width: 100%;
+      height: 250px;
       text-align: center;
-      height: 530px;
       margin: 0 auto;
-      background-color: #fffffff0;
-      padding-top: 40px; }
+      margin-top: 300px;
+      background-color: #ffffff;
+      padding-top: 20px; }
+      .hero_sec .sec_logo .pc {
+        display: none; }
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
@@ -2016,7 +1861,6 @@
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
         width: 280px;
-        height: 300px;
         margin: 40px auto 0; }
         .hero_sec .sec_logo .contact_info a {
           width: inherit;
@@ -2027,7 +1871,8 @@
           margin-bottom: 10px; }
   .usual_part {
     width: 95%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 260px; }
     .usual_part h2 {
       font-family: "NotoSansCJKJP";
       font-size: 26px;
@@ -2104,10 +1949,10 @@
             border-left: none; }
   .soc_med {
     width: 100%;
-    height: 800px;
+    height: 950px;
     background-image: url("../images/gradient_bg.jpg");
-    background-position: -200px 100px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    padding-top: 50px; }
     .soc_med ul {
       list-style: none; }
     .soc_med .inner_soc_med {
