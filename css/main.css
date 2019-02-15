@@ -35,7 +35,7 @@
         align-items: center; }
       .hero_sec .main_visual li {
         color: white;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 14px;
         align-items: center;
         text-align: center; }
@@ -53,12 +53,12 @@
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 26px; }
       .hero_sec .sec_logo h4 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
         font-size: 14px;
         background-color: #ff771d;
@@ -69,11 +69,11 @@
         border-radius: 100px;
         margin-bottom: 20px; }
       .hero_sec .sec_logo h3 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 26px;
         letter-spacing: 2px; }
       .hero_sec .sec_logo p {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
@@ -93,7 +93,7 @@
     margin: 0 auto;
     margin-top: 150px; }
     .usual_part h2 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 32px;
       margin: 80px auto;
       position: relative;
@@ -122,7 +122,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 60px;
-      font-family: "NotoSansCJKJP"; }
+      font-family: 'Noto Sans JP', sans-serif; }
       .usual_part .card_grid li {
         list-style: none; }
       .usual_part .card_grid .card_grid_item {
@@ -192,14 +192,14 @@
             width: 100%; }
         .soc_med .inner_soc_med .grid_container p {
           margin-top: 20px;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           letter-spacing: 2px;
           font-weight: 600;
           font-size: 18px; }
       .soc_med .inner_soc_med h2 {
         color: white;
         font-size: 45px;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         padding-top: 40px;
         margin-bottom: 50px;
@@ -208,7 +208,7 @@
         color: white;
         font-size: 20px;
         font-weight: lighter;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         letter-spacing: 2px;
         margin-top: 40px; }
@@ -231,7 +231,7 @@
     .points h2 {
       width: 960px;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 32px;
       margin: 80px auto;
       position: relative; }
@@ -255,7 +255,7 @@
       text-align: center;
       font-size: 70px; }
     .points .sub_title {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -273,7 +273,7 @@
       .points .container h3 {
         width: 96%;
         margin: 0 auto;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 32px;
         font-weight: bold;
         text-align: center;
@@ -283,7 +283,7 @@
         .points .container h3 span {
           color: #ffbf2b; }
       .points .container .sec_foo {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 20px;
         font-weight: 600;
         text-align: center;
@@ -323,7 +323,7 @@
     text-align: center;
     font-size: 70px; }
   .banner_conv .sub_title {
-    font-family: "NotoSansCJKJP";
+    font-family: 'Noto Sans JP', sans-serif;
     width: 96%;
     margin: 0 auto;
     text-align: center;
@@ -374,13 +374,13 @@
           width: 100%; }
         .banner_conv .message_con .mess_grid_container .user_pic_contain p {
           font-size: 16px;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           margin-top: 10px;
           letter-spacing: 1px; }
     .banner_conv .message_con .message_bgl {
       font-size: 16px;
       font-weight: bold;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       background-image: url("../images/meaage_lt.png");
       background-repeat: no-repeat;
       background-size: 80%;
@@ -411,7 +411,7 @@
       text-align: center;
       font-size: 70px; }
     .sub_serv .sub_title {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -428,7 +428,7 @@
       margin: 50px auto;
       background-color: white;
       padding: 50px 20px;
-      font-family: "NotoSansCJKJP"; }
+      font-family: 'Noto Sans JP', sans-serif; }
       .sub_serv .serv_white_bg h3 {
         margin-bottom: 30px;
         text-align: center; }
@@ -457,7 +457,7 @@
     .safty_sec h2 {
       width: 960px;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 32px;
       margin: 80px auto;
       margin-bottom: 10px;
@@ -475,7 +475,7 @@
       opacity: 0.05;
       z-index: -1; }
     .safty_sec h2 + p {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 16px;
       letter-spacing: 2px;
       width: 600px;
@@ -504,7 +504,7 @@
           width: 200px;
           text-align: center;
           margin: 30px auto 0;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           color: #ffb529; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
         background-image: url("../images/point_03.png"); }
@@ -523,7 +523,7 @@
     background-size: 100%;
     padding-top: 75px;
     font-weight: 600;
-    font-family: "NotoSansCJKJP"; }
+    font-family: 'Noto Sans JP', sans-serif; }
     .banner_02 div {
       width: 700px;
       margin: 0 auto; }
@@ -541,12 +541,12 @@
     .foo_sec_logo h1 {
       text-align: center; }
     .foo_sec_logo h2 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       margin-top: 10px;
       margin-bottom: 10px;
       font-size: 26px; }
     .foo_sec_logo h4 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-weight: 500;
       font-size: 14px;
       background-color: #ff771d;
@@ -557,11 +557,11 @@
       border-radius: 100px;
       margin-bottom: 20px; }
     .foo_sec_logo h3 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       letter-spacing: 2px; }
     .foo_sec_logo p {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-weight: 500;
       letter-spacing: 2px; }
     .foo_sec_logo .contact_info {
@@ -584,7 +584,7 @@
     footer .inner_footer {
       width: 730px;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       color: white; }
       footer .inner_footer ul {
         width: 90%;
@@ -646,7 +646,7 @@
         align-items: center; }
       .hero_sec .main_visual li {
         color: white;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 14px;
         align-items: center;
         text-align: center; }
@@ -664,12 +664,12 @@
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 26px; }
       .hero_sec .sec_logo h4 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
         font-size: 14px;
         background-color: #ff771d;
@@ -680,11 +680,11 @@
         border-radius: 100px;
         margin-bottom: 20px; }
       .hero_sec .sec_logo h3 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 26px;
         letter-spacing: 2px; }
       .hero_sec .sec_logo p {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
@@ -703,7 +703,7 @@
     height: 1200px;
     margin: 0 auto; }
     .usual_part h2 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       margin: 80px auto;
       position: relative; }
@@ -731,7 +731,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 60px;
-      font-family: "NotoSansCJKJP"; }
+      font-family: 'Noto Sans JP', sans-serif; }
       .usual_part .card_grid li {
         list-style: none; }
       .usual_part .card_grid .card_grid_item {
@@ -800,14 +800,14 @@
             width: 100%; }
         .soc_med .inner_soc_med .grid_container p {
           margin-top: 20px;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           letter-spacing: 2px;
           font-weight: 600;
           font-size: 18px; }
       .soc_med .inner_soc_med h2 {
         color: white;
         font-size: 32px;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         padding-top: 40px;
         margin-bottom: 50px;
@@ -816,7 +816,7 @@
         color: white;
         font-size: 20px;
         font-weight: lighter;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         letter-spacing: 2px;
         margin-top: 40px; }
@@ -839,7 +839,7 @@
     .points h2 {
       width: 600px;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       margin: 80px auto;
       position: relative; }
@@ -863,7 +863,7 @@
       text-align: center;
       font-size: 70px; }
     .points .sub_title {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -881,7 +881,7 @@
       .points .container h3 {
         width: 96%;
         margin: 0 auto;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 22px;
         text-align: center;
         letter-spacing: 2px;
@@ -889,7 +889,7 @@
         .points .container h3 span {
           color: #ffbf2b; }
       .points .container .sec_foo {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 22px;
         font-weight: 600;
         text-align: center;
@@ -926,7 +926,7 @@
     text-align: center;
     font-size: 70px; }
   .banner_conv .sub_title {
-    font-family: "NotoSansCJKJP";
+    font-family: 'Noto Sans JP', sans-serif;
     width: 96%;
     margin: 0 auto;
     text-align: center;
@@ -978,13 +978,13 @@
           width: 100%; }
         .banner_conv .message_con .mess_grid_container .user_pic_contain p {
           font-size: 12px;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           margin-top: 10px;
           letter-spacing: 1px; }
     .banner_conv .message_con .message_bgl {
       font-size: 16px;
       font-weight: bold;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       background-image: url("../images/meaage_lt.png");
       background-repeat: no-repeat;
       background-size: 100%;
@@ -1013,7 +1013,7 @@
       text-align: center;
       font-size: 70px; }
     .sub_serv .sub_title {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -1031,7 +1031,7 @@
       background-color: white;
       padding: 50px 20px;
       text-align: center;
-      font-family: "NotoSansCJKJP"; }
+      font-family: 'Noto Sans JP', sans-serif; }
       .sub_serv .serv_white_bg h3 {
         margin-bottom: 30px; }
       .sub_serv .serv_white_bg p {
@@ -1058,7 +1058,7 @@
     margin-top: 150px; }
     .safty_sec h2 {
       width: 600px;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       position: relative; }
     .safty_sec h2::before {
@@ -1074,7 +1074,7 @@
       opacity: 0.05;
       z-index: -1; }
     .safty_sec h2 + p {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 16px;
       letter-spacing: 2px;
       width: 600px;
@@ -1103,7 +1103,7 @@
           width: 200px;
           text-align: center;
           margin: 30px auto 0;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           color: #ffb529; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
         background-image: url("../images/point_03.png"); }
@@ -1122,7 +1122,7 @@
     background-size: 100%;
     padding-top: 75px;
     font-weight: 600;
-    font-family: "NotoSansCJKJP"; }
+    font-family: 'Noto Sans JP', sans-serif; }
     .banner_02 div {
       width: 700px;
       margin: 0 auto; }
@@ -1140,12 +1140,12 @@
     .foo_sec_logo h1 {
       text-align: center; }
     .foo_sec_logo h2 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       margin-top: 10px;
       margin-bottom: 10px;
       font-size: 26px; }
     .foo_sec_logo h4 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-weight: 500;
       font-size: 14px;
       background-color: #ff771d;
@@ -1156,11 +1156,11 @@
       border-radius: 100px;
       margin-bottom: 20px; }
     .foo_sec_logo h3 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       letter-spacing: 2px; }
     .foo_sec_logo p {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-weight: 500;
       letter-spacing: 2px; }
     .foo_sec_logo .contact_info {
@@ -1183,7 +1183,7 @@
     footer .inner_footer {
       width: 730px;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       color: white; }
       footer .inner_footer ul {
         width: 90%;
@@ -1243,7 +1243,7 @@
         align-items: center; }
       .hero_sec .main_visual li {
         color: white;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 14px;
         align-items: center;
         text-align: center; }
@@ -1264,12 +1264,12 @@
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 26px; }
       .hero_sec .sec_logo h4 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
         font-size: 14px;
         background-color: #ff771d;
@@ -1280,23 +1280,23 @@
         border-radius: 100px;
         margin-bottom: 20px; }
       .hero_sec .sec_logo h3 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 26px;
         letter-spacing: 2px; }
       .hero_sec .sec_logo p {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
         width: 280px;
         margin: 0px auto 0; }
         .hero_sec .sec_logo .contact_info h5 {
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           font-size: 22px;
           letter-spacing: 2px;
           color: #fc8d3b; }
         .hero_sec .sec_logo .contact_info h6 {
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           margin-bottom: 30px;
           font-size: 12px;
           font-weight: normal; }
@@ -1312,7 +1312,7 @@
     margin: 0 auto;
     padding-top: 230px; }
     .usual_part h2 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       margin: 80px auto;
       position: relative; }
@@ -1340,7 +1340,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 35px;
-      font-family: "NotoSansCJKJP"; }
+      font-family: 'Noto Sans JP', sans-serif; }
       .usual_part .card_grid li {
         list-style: none; }
       .usual_part .card_grid .card_grid_item {
@@ -1409,14 +1409,14 @@
             width: 100%; }
         .soc_med .inner_soc_med .grid_container p {
           margin-top: 20px;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           letter-spacing: 2px;
           font-weight: 600;
           font-size: 18px; }
       .soc_med .inner_soc_med h2 {
         color: white;
         font-size: 32px;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         padding-top: 40px;
         margin-bottom: 50px;
@@ -1425,7 +1425,7 @@
         color: white;
         font-size: 20px;
         font-weight: lighter;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         letter-spacing: 2px;
         margin-top: 40px; }
@@ -1448,7 +1448,7 @@
     .points h2 {
       width: 600px;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       margin: 80px auto;
       position: relative; }
@@ -1472,7 +1472,7 @@
       text-align: center;
       font-size: 70px; }
     .points .sub_title {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -1490,7 +1490,7 @@
       .points .container h3 {
         width: 96%;
         margin: 0 auto;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 22px;
         text-align: center;
         letter-spacing: 2px;
@@ -1498,7 +1498,7 @@
         .points .container h3 span {
           color: #ffbf2b; }
       .points .container .sec_foo {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 22px;
         font-weight: 600;
         text-align: center;
@@ -1535,7 +1535,7 @@
     text-align: center;
     font-size: 70px; }
   .banner_conv .sub_title {
-    font-family: "NotoSansCJKJP";
+    font-family: 'Noto Sans JP', sans-serif;
     width: 96%;
     margin: 0 auto;
     text-align: center;
@@ -1587,13 +1587,13 @@
           width: 100%; }
         .banner_conv .message_con .mess_grid_container .user_pic_contain p {
           font-size: 12px;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           margin-top: 10px;
           letter-spacing: 1px; }
     .banner_conv .message_con .message_bgl {
       font-size: 16px;
       font-weight: bold;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       background-image: url("../images/meaage_lt.png");
       background-repeat: no-repeat;
       background-size: 100%;
@@ -1622,7 +1622,7 @@
       text-align: center;
       font-size: 70px; }
     .sub_serv .sub_title {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -1640,7 +1640,7 @@
       background-color: white;
       padding: 30px 20px;
       text-align: center;
-      font-family: "NotoSansCJKJP"; }
+      font-family: 'Noto Sans JP', sans-serif; }
       .sub_serv .serv_white_bg p {
         font-size: 14px;
         width: 400px;
@@ -1665,7 +1665,7 @@
     .safty_sec h2 {
       width: 98%;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       margin: 80px auto 10px;
       position: relative; }
@@ -1682,7 +1682,7 @@
       opacity: 0.05;
       z-index: -1; }
     .safty_sec h2 + p {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 16px;
       letter-spacing: 2px; }
     .safty_sec .safty_grid_container {
@@ -1709,7 +1709,7 @@
           width: 200px;
           text-align: center;
           margin: 30px auto 0;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           color: #ffb529; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
         background-image: url("../images/point_03.png"); }
@@ -1728,7 +1728,7 @@
     background-size: 100%;
     padding-top: 75px;
     font-weight: 600;
-    font-family: "NotoSansCJKJP"; }
+    font-family: 'Noto Sans JP', sans-serif; }
     .banner_02 p {
       width: 400px;
       font-size: 22px;
@@ -1745,12 +1745,12 @@
     .foo_sec_logo h1 {
       text-align: center; }
     .foo_sec_logo h2 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       margin-top: 10px;
       margin-bottom: 10px;
       font-size: 26px; }
     .foo_sec_logo h4 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-weight: 500;
       font-size: 14px;
       background-color: #ff771d;
@@ -1761,11 +1761,11 @@
       border-radius: 100px;
       margin-bottom: 20px; }
     .foo_sec_logo h3 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       letter-spacing: 2px; }
     .foo_sec_logo p {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-weight: 500;
       letter-spacing: 2px; }
     .foo_sec_logo .contact_info {
@@ -1788,7 +1788,7 @@
     footer .inner_footer {
       width: 95%;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       color: white; }
       footer .inner_footer ul {
         width: 90%;
@@ -1850,7 +1850,7 @@
         align-items: center; }
       .hero_sec .main_visual li {
         color: white;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 14px;
         align-items: center;
         text-align: center; }
@@ -1871,12 +1871,12 @@
       .hero_sec .sec_logo h1 {
         text-align: center; }
       .hero_sec .sec_logo h2 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 26px; }
       .hero_sec .sec_logo h4 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
         font-size: 14px;
         background-color: #ff771d;
@@ -1887,23 +1887,23 @@
         border-radius: 100px;
         margin-bottom: 20px; }
       .hero_sec .sec_logo h3 {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 26px;
         letter-spacing: 2px; }
       .hero_sec .sec_logo p {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-weight: 500;
         letter-spacing: 2px; }
       .hero_sec .sec_logo .contact_info {
-        width: 280px;
+        width: 320px;
         margin: 10px auto 0; }
         .hero_sec .sec_logo .contact_info h5 {
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           font-size: 22px;
           letter-spacing: 2px;
           color: #fc8d3b; }
         .hero_sec .sec_logo .contact_info h6 {
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           margin-bottom: 15px;
           font-size: 12px;
           font-weight: lighter; }
@@ -1920,7 +1920,7 @@
     padding-top: 160px; }
     .usual_part h2 {
       width: 95%;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       font-weight: bold;
       height: 100px;
@@ -1964,7 +1964,7 @@
       -webkit-overflow-scrolling: touch;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      font-family: "NotoSansCJKJP"; }
+      font-family: 'Noto Sans JP', sans-serif; }
       .usual_part .card_grid li {
         list-style: none; }
       .usual_part .card_grid .card_grid_item {
@@ -2036,14 +2036,14 @@
             width: 100%; }
         .soc_med .inner_soc_med .grid_container p {
           margin-top: 20px;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           letter-spacing: 2px;
           font-weight: 600;
           font-size: 14px; }
       .soc_med .inner_soc_med h2 {
         color: white;
         font-size: 32px;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         margin-bottom: 30px;
         letter-spacing: 4px; }
@@ -2051,7 +2051,7 @@
         color: white;
         font-size: 18px;
         font-weight: lighter;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         letter-spacing: 1px;
         margin-top: 30px; }
@@ -2071,7 +2071,7 @@
     margin: 0 auto; }
     .points h2 {
       width: 95%;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       font-weight: bold;
       height: 100px;
@@ -2104,7 +2104,7 @@
       text-align: center;
       font-size: 70px; }
     .points .sub_title {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -2122,7 +2122,7 @@
       .points .container h3 {
         width: 96%;
         margin: 0 auto;
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 24px;
         font-weight: bold;
         text-align: center;
@@ -2131,7 +2131,7 @@
         .points .container h3 span {
           color: #ffbf2b; }
       .points .container .sec_foo {
-        font-family: "NotoSansCJKJP";
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: 16px;
         width: 70%;
         margin: 0 auto;
@@ -2171,7 +2171,7 @@
     text-align: center;
     font-size: 70px; }
   .banner_conv .sub_title {
-    font-family: "NotoSansCJKJP";
+    font-family: 'Noto Sans JP', sans-serif;
     width: 94%;
     margin: 0 auto;
     text-align: center;
@@ -2230,7 +2230,7 @@
       .banner_conv .message_con_mobile .message_bg p {
         font-size: 15px;
         font-weight: bold;
-        font-family: "NotoSansCJKJP"; }
+        font-family: 'Noto Sans JP', sans-serif; }
         .banner_conv .message_con_mobile .message_bg p span {
           color: #ffb529; }
   .banner_conv .message_con {
@@ -2254,13 +2254,13 @@
           width: 100%; }
         .banner_conv .message_con .mess_grid_container .user_pic_contain p {
           font-size: 12px;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           margin-top: 10px;
           letter-spacing: 1px; }
     .banner_conv .message_con .message_bgl {
       font-size: 12px;
       font-weight: bold;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       background-image: url("../images/meaage_lt.png");
       background-repeat: no-repeat;
       background-size: 100%;
@@ -2289,7 +2289,7 @@
       text-align: center;
       font-size: 70px; }
     .sub_serv .sub_title {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       width: 96%;
       margin: 0 auto;
       text-align: center;
@@ -2306,7 +2306,7 @@
       margin: 50px auto;
       background-color: white;
       padding: 30px 10px;
-      font-family: "NotoSansCJKJP"; }
+      font-family: 'Noto Sans JP', sans-serif; }
       .sub_serv .serv_white_bg h3 {
         font-size: 16px;
         text-align: center; }
@@ -2331,7 +2331,7 @@
     margin: 0 auto; }
     .safty_sec h2 {
       width: 95%;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       font-weight: bold;
       height: 100px;
@@ -2356,7 +2356,7 @@
       opacity: 0.05;
       z-index: -1; }
     .safty_sec h2 + p {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 14px;
       letter-spacing: 2px;
       width: 95%;
@@ -2384,7 +2384,7 @@
           width: 200px;
           text-align: center;
           margin: 30px auto 0;
-          font-family: "NotoSansCJKJP";
+          font-family: 'Noto Sans JP', sans-serif;
           color: #ffb529; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
         background-image: url("../images/point_03.png"); }
@@ -2403,7 +2403,7 @@
     background-size: 200%;
     padding-top: 75px;
     font-weight: 600;
-    font-family: "NotoSansCJKJP"; }
+    font-family: 'Noto Sans JP', sans-serif; }
     .banner_02 p {
       width: 200px;
       margin-right: auto;
@@ -2419,12 +2419,12 @@
     .foo_sec_logo h1 {
       text-align: center; }
     .foo_sec_logo h2 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       margin-top: 10px;
       margin-bottom: 10px;
       font-size: 26px; }
     .foo_sec_logo h4 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-weight: 500;
       font-size: 14px;
       background-color: #ff771d;
@@ -2435,11 +2435,11 @@
       border-radius: 100px;
       margin-bottom: 20px; }
     .foo_sec_logo h3 {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-size: 26px;
       letter-spacing: 2px; }
     .foo_sec_logo p {
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       font-weight: 500;
       letter-spacing: 2px; }
     .foo_sec_logo .contact_info {
@@ -2461,7 +2461,7 @@
     footer .inner_footer {
       width: 95%;
       margin: 0 auto;
-      font-family: "NotoSansCJKJP";
+      font-family: 'Noto Sans JP', sans-serif;
       color: white; }
       footer .inner_footer ul {
         width: 100%;
