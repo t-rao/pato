@@ -704,14 +704,15 @@
     margin: 0 auto; }
     .usual_part h2 {
       font-family: 'Noto Sans JP', sans-serif;
-      font-size: 26px;
+      font-size: 32px;
       margin: 80px auto;
-      position: relative; }
+      position: relative;
+      font-weight: bolder; }
     .usual_part h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 56px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
@@ -837,17 +838,16 @@
     width: 100%;
     margin: 0 auto; }
     .points h2 {
-      width: 600px;
-      margin: 0 auto;
       font-family: 'Noto Sans JP', sans-serif;
-      font-size: 26px;
+      font-size: 32px;
       margin: 80px auto;
-      position: relative; }
+      position: relative;
+      font-weight: bolder; }
     .points h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 56px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
@@ -1057,15 +1057,16 @@
     margin: 0 auto;
     margin-top: 150px; }
     .safty_sec h2 {
-      width: 600px;
       font-family: 'Noto Sans JP', sans-serif;
-      font-size: 26px;
-      position: relative; }
+      font-size: 32px;
+      margin: 80px auto;
+      position: relative;
+      font-weight: bolder; }
     .safty_sec h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 56px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
