@@ -94,14 +94,15 @@
     margin-top: 150px; }
     .usual_part h2 {
       font-family: "NotoSansCJKJP";
-      font-size: 26px;
+      font-size: 32px;
       margin: 80px auto;
-      position: relative; }
+      position: relative;
+      font-weight: bolder; }
     .usual_part h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 56px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
@@ -231,14 +232,14 @@
       width: 960px;
       margin: 0 auto;
       font-family: "NotoSansCJKJP";
-      font-size: 26px;
+      font-size: 32px;
       margin: 80px auto;
       position: relative; }
     .points h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 56px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
@@ -289,6 +290,8 @@
         letter-spacing: 2px;
         margin: 40px auto 100px; }
       .points .container .inner_container {
+        width: 960px;
+        margin: 0 auto;
         margin-top: 60px;
         white-space: nowrap;
         overflow-y: hidden;
@@ -333,8 +336,7 @@
     margin: 10px auto 40px;
     border-bottom: 5px solid #fd7a22; }
   .banner_conv .banner_01 {
-    width: 100%;
-    min-width: 300px;
+    width: 750px;
     margin: 0 auto; }
     .banner_conv .banner_01 img {
       width: 100%; }
@@ -352,26 +354,26 @@
     text-align: center;
     font-family: Arial; }
   .banner_conv .message_con {
-    width: 95%;
+    width: 960px;
     height: 300px;
     margin: 60px auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-row-gap: 30px; }
+    grid-row-gap: 60px; }
     .banner_conv .message_con .mess_grid_container {
-      width: 500px;
+      width: 660px;
       margin: 0 auto;
       display: grid;
       grid-template-columns: 30% 70%;
       text-align: center;
       align-items: center; }
       .banner_conv .message_con .mess_grid_container .user_pic_contain {
-        width: 120px;
-        height: 120px; }
+        width: 180px;
+        height: 180px; }
         .banner_conv .message_con .mess_grid_container .user_pic_contain img {
           width: 100%; }
         .banner_conv .message_con .mess_grid_container .user_pic_contain p {
-          font-size: 12px;
+          font-size: 16px;
           font-family: "NotoSansCJKJP";
           margin-top: 10px;
           letter-spacing: 1px; }
@@ -381,10 +383,12 @@
       font-family: "NotoSansCJKJP";
       background-image: url("../images/meaage_lt.png");
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 80%;
       height: 80px;
       padding-top: 15px;
-      text-align: center; }
+      text-align: center;
+      background-position: center;
+      padding-top: 25px; }
       .banner_conv .message_con .message_bgl span {
         color: #ffb529; }
     .banner_conv .message_con .mess_grid_container:nth-child(2) {
@@ -424,10 +428,10 @@
       margin: 50px auto;
       background-color: white;
       padding: 50px 20px;
-      text-align: center;
       font-family: "NotoSansCJKJP"; }
       .sub_serv .serv_white_bg h3 {
-        margin-bottom: 30px; }
+        margin-bottom: 30px;
+        text-align: center; }
       .sub_serv .serv_white_bg p {
         font-size: 14px;
         width: 400px;
@@ -451,15 +455,18 @@
     margin: 0 auto;
     margin-top: 150px; }
     .safty_sec h2 {
-      width: 600px;
+      width: 960px;
+      margin: 0 auto;
       font-family: "NotoSansCJKJP";
-      font-size: 26px;
+      font-size: 32px;
+      margin: 80px auto;
+      margin-bottom: 10px;
       position: relative; }
     .safty_sec h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 56px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
@@ -472,7 +479,7 @@
       font-size: 16px;
       letter-spacing: 2px;
       width: 600px;
-      margin-bottom: 50px; }
+      margin-bottom: 80px; }
     .safty_sec .safty_grid_container {
       width: 860px;
       margin: 40px auto 90px;
