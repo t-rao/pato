@@ -1814,6 +1814,7 @@
     height: 435px;
     background-image: url("../images/top_pc_pato_20190128_2_02.jpg");
     background-position: center; 
+    background-size:cover;
     background-repeat: no-repeat; }
     .hero_sec .pc_logo {
       width: 300px;
