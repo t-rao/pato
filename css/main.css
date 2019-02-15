@@ -608,9 +608,13 @@
   .pc_logo {
     display: none; }
   .mobile {
+    display: none; }
+  .message_con_mobile {
     display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
+  .message_con_mobile {
+    display: none; }
   .hero_sec {
     width: 100%;
     min-width: 700px;
@@ -1806,15 +1810,18 @@
   .scroll_app {
     display: none; }
   .pc {
+    display: none; }
+  .message_con_mobile {
     display: none; } }
 
 @media screen and (max-width: 500px) {
   .hero_sec {
     width: 100%;
-    height: 435px;
+    height: 445px;
     background-image: url("../images/top_pc_pato_20190128_2_02.jpg");
-    background-position: center; 
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: top left; }
     .hero_sec .pc_logo {
       width: 300px;
       margin: 0 auto;
@@ -1849,8 +1856,8 @@
       height: 250px;
       text-align: center;
       margin: 0 auto;
-      margin-top: 53px;
-      background-color: #ffffff;
+      margin-top: 45px;
+      background-color: #f7f7f7;
       padding-top: 3px; }
       .hero_sec .sec_logo .pc {
         display: none; }
@@ -1903,33 +1910,43 @@
   .usual_part {
     width: 95%;
     margin: 0 auto;
-    padding-top: 260px; }
+    padding-top: 160px; }
     .usual_part h2 {
+      width: 95%;
       font-family: "NotoSansCJKJP";
       font-size: 26px;
-      margin: 80px auto;
-      position: relative; }
+      font-weight: bold;
+      height: 100px;
+      margin: 20px auto;
+      margin-top: 70px;
+      position: relative;
+      overflow: hidden;
+      padding-top: 50px;
+      text-align: center; }
     .usual_part h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 52px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
       position: absolute;
       bottom: 20px;
+      white-space: nowrap;
+      overflow: hidden;
       opacity: 0.05;
       z-index: -1; }
     .usual_part .img_conta {
       width: 95%;
-      height: 300px;
+      height: 150px;
       margin: 0 auto 10px; }
       .usual_part .img_conta img {
         width: 100%; }
     .usual_part .card_grid {
       width: 98%;
-      margin: 0 auto 150px;
+      margin: 0 auto;
+      margin-bottom: 30px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 10px;
@@ -1944,13 +1961,13 @@
       .usual_part .card_grid li {
         list-style: none; }
       .usual_part .card_grid .card_grid_item {
-        height: 500px;
+        height: 310px;
         background-color: white;
         border-radius: 20px;
         padding-top: 20px;
         display: grid;
-        grid-template-rows: 150px 220px 80px;
-        grid-row-gap: 30px 50px;
+        grid-template-rows: 150px 80px;
+        grid-row-gap: 30px;
         align-items: center;
         text-align: center; }
         .usual_part .card_grid .card_grid_item .avatar {
@@ -1969,7 +1986,8 @@
           width: 260px;
           margin: auto;
           font-size: 14px;
-          letter-spacing: 1px; }
+          letter-spacing: 1px;
+          display: none; }
         .usual_part .card_grid .card_grid_item .info_grid {
           width: 300px;
           margin: auto;
@@ -1987,7 +2005,7 @@
             border-left: none; }
   .soc_med {
     width: 100%;
-    height: 950px;
+    height: 740px;
     background-image: url("../images/gradient_bg.jpg");
     background-repeat: no-repeat;
     padding-top: 50px; }
@@ -2000,11 +2018,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-column-gap: 40px;
-        grid-row-gap: 40px;
-        text-align: center; }
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        text-align: center;
+        margin-bottom: 30px; }
         .soc_med .inner_soc_med .grid_container div {
-          width: 130px; }
+          width: 100px;
+          margin: auto; }
           .soc_med .inner_soc_med .grid_container div img {
             width: 100%; }
         .soc_med .inner_soc_med .grid_container p {
@@ -2012,22 +2032,22 @@
           font-family: "NotoSansCJKJP";
           letter-spacing: 2px;
           font-weight: 600;
-          font-size: 18px; }
+          font-size: 14px; }
       .soc_med .inner_soc_med h2 {
         color: white;
         font-size: 32px;
         font-family: "NotoSansCJKJP";
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         letter-spacing: 4px; }
       .soc_med .inner_soc_med h4 {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: lighter;
         font-family: "NotoSansCJKJP";
         text-align: center;
-        letter-spacing: 2px;
-        margin-top: 20px; }
+        letter-spacing: 1px;
+        margin-top: 30px; }
       .soc_med .inner_soc_med .soc_mediam {
         width: 300px;
         margin: 40px auto 0;
@@ -2043,22 +2063,30 @@
     width: 100%;
     margin: 0 auto; }
     .points h2 {
-      width: 98%;
-      margin: 0 auto;
+      width: 95%;
       font-family: "NotoSansCJKJP";
       font-size: 26px;
-      margin: 80px auto;
-      position: relative; }
+      font-weight: bold;
+      height: 100px;
+      margin: 20px auto;
+      margin-top: 70px;
+      position: relative;
+      overflow: hidden;
+      padding-top: 50px;
+      text-align: center;
+      letter-spacing: 2px; }
     .points h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 52px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
       position: absolute;
       bottom: 20px;
+      white-space: nowrap;
+      overflow: hidden;
       opacity: 0.05;
       z-index: -1; }
     .points .title {
@@ -2073,11 +2101,11 @@
       width: 96%;
       margin: 0 auto;
       text-align: center;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: lighter;
       letter-spacing: 2px; }
     .points .orange_line {
-      width: 250px;
+      width: 100%;
       height: 10px;
       margin: 10px auto 40px;
       border-bottom: 5px solid #fd7a22; }
@@ -2088,7 +2116,8 @@
         width: 96%;
         margin: 0 auto;
         font-family: "NotoSansCJKJP";
-        font-size: 22px;
+        font-size: 24px;
+        font-weight: bold;
         text-align: center;
         letter-spacing: 2px;
         margin-bottom: 60px; }
@@ -2096,11 +2125,13 @@
           color: #ffbf2b; }
       .points .container .sec_foo {
         font-family: "NotoSansCJKJP";
-        font-size: 22px;
-        font-weight: 600;
+        font-size: 16px;
+        width: 70%;
+        margin: 0 auto;
+        font-weight: normal;
         text-align: center;
         letter-spacing: 2px;
-        margin: 40px auto 100px; }
+        margin: 20px auto 80px; }
       .points .container .inner_container {
         margin-top: 60px;
         white-space: nowrap;
@@ -2110,7 +2141,8 @@
         -webkit-overflow-scrolling: touch;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 10px; }
+        grid-gap: 10px;
+        margin-left: 20px; }
       .points .container .inner_container {
         overflow-y: scroll;
         scrollbar-width: none;
@@ -2121,7 +2153,7 @@
         /* WebKit */
         width: 0; }
       .points .container .inner_container div {
-        width: 250px; }
+        width: 200px; }
       .points .container .inner_container div img {
         width: 100%; }
   .banner_conv .title {
@@ -2133,41 +2165,75 @@
     font-size: 70px; }
   .banner_conv .sub_title {
     font-family: "NotoSansCJKJP";
-    width: 96%;
+    width: 94%;
     margin: 0 auto;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
-    letter-spacing: 2px; }
+    letter-spacing: 1px; }
   .banner_conv .orange_line {
-    width: 250px;
+    width: 100%;
     height: 10px;
     margin: 10px auto 40px;
     border-bottom: 5px solid #fd7a22; }
   .banner_conv .banner_01 {
-    width: 100%;
+    width: 95%;
     min-width: 300px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 35px;
+    border-radius: 200px; }
     .banner_conv .banner_01 img {
       width: 100%; }
   .banner_conv .banner_sub_heading {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
-    font-family: Arial; }
+    font-family: Arial;
+    display: none; }
   .banner_conv .banner_sub_heading + p {
     width: 96%;
     margin: 0 auto;
     font-size: 16px;
     text-align: center;
-    font-family: Arial; }
+    font-family: Arial;
+    display: none; }
+  .banner_conv .message_con_mobile {
+    width: 95%;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 200px 60px; }
+    .banner_conv .message_con_mobile .users_pic {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+    .banner_conv .message_con_mobile .user_pic {
+      width: 150px;
+      margin: 0 auto;
+      text-align: center; }
+      .banner_conv .message_con_mobile .user_pic img {
+        width: 100%; }
+    .banner_conv .message_con_mobile .message_bg {
+      text-align: center;
+      background-image: url(../images/meaage_t.png);
+      background-repeat: no-repeat;
+      background-size: 81%;
+      background-position: center top;
+      height: 69px;
+      padding-top: 22px;
+      padding-bottom: 40px; }
+      .banner_conv .message_con_mobile .message_bg p {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "NotoSansCJKJP"; }
+        .banner_conv .message_con_mobile .message_bg p span {
+          color: #ffb529; }
   .banner_conv .message_con {
     width: 95%;
     height: 300px;
     margin: 60px auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-row-gap: 30px; }
+    grid-row-gap: 30px;
+    display: none; }
     .banner_conv .message_con .mess_grid_container {
       width: 100%;
       display: grid;
@@ -2206,7 +2272,7 @@
         grid-row: 1/1;
         background-image: url("../images/meaage_rt.png"); }
   .sub_serv {
-    width: 95%;
+    width: 100%;
     margin: 40px auto 0; }
     .sub_serv .title {
       color: #fd7a22;
@@ -2220,29 +2286,32 @@
       width: 96%;
       margin: 0 auto;
       text-align: center;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: lighter;
-      letter-spacing: 2px; }
+      letter-spacing: 1px; }
     .sub_serv .orange_line {
-      width: 250px;
+      width: 100%;
       height: 10px;
       margin: 10px auto 40px;
       border-bottom: 5px solid #fd7a22; }
     .sub_serv .serv_white_bg {
-      width: 98%;
+      width: 90%;
       margin: 50px auto;
       background-color: white;
-      padding: 30px 20px;
-      text-align: center;
+      padding: 30px 10px;
       font-family: "NotoSansCJKJP"; }
+      .sub_serv .serv_white_bg h3 {
+        font-size: 16px;
+        text-align: center; }
       .sub_serv .serv_white_bg p {
-        font-size: 14px; }
+        font-size: 14px;
+        line-height: 150%; }
       .sub_serv .serv_white_bg .galery_img {
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 30px;
+        margin-top: 15px;
         margin-bottom: 10px; }
         .sub_serv .serv_white_bg .galery_img div {
           margin: 5px 5px 0; }
@@ -2254,28 +2323,37 @@
     width: 95%;
     margin: 0 auto; }
     .safty_sec h2 {
-      width: 98%;
-      margin: 0 auto;
+      width: 95%;
       font-family: "NotoSansCJKJP";
       font-size: 26px;
-      margin: 80px auto 10px;
-      position: relative; }
+      font-weight: bold;
+      height: 100px;
+      margin: 20px auto;
+      margin-top: 70px;
+      position: relative;
+      overflow: hidden;
+      padding-top: 50px;
+      letter-spacing: 2px; }
     .safty_sec h2::before {
       color: #000;
       content: attr(data-bg-text);
       display: block;
-      font-size: 32px;
+      font-size: 52px;
       letter-spacing: 5px;
       font-family: "BrandonGrotesque";
       line-height: 1;
       position: absolute;
       bottom: 20px;
+      white-space: nowrap;
+      overflow: hidden;
       opacity: 0.05;
       z-index: -1; }
     .safty_sec h2 + p {
       font-family: "NotoSansCJKJP";
       font-size: 14px;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      width: 95%;
+      margin: 0 auto; }
     .safty_sec .safty_grid_container {
       width: 100%;
       margin: 40px auto 0;
