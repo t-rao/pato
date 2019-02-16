@@ -2020,7 +2020,7 @@
     .soc_med ul {
       list-style: none; }
     .soc_med .inner_soc_med {
-      width: 300px;
+      width: 98%;
       margin: auto; }
       .soc_med .inner_soc_med .grid_container {
         display: grid;
@@ -2055,9 +2055,10 @@
         font-family: 'Noto Sans JP', sans-serif;
         text-align: center;
         letter-spacing: 1px;
-        margin-top: 30px; }
+        margin-top: 30px;
+        width: 95%; }
       .soc_med .inner_soc_med .soc_mediam {
-        width: 300px;
+        width: 95%;
         margin: 40px auto 0;
         display: grid;
         grid-template-rows: 1fr 1fr;
@@ -2412,7 +2413,7 @@
     .banner_02 img {
       width: 100%; }
   .foo_sec_logo {
-    width: 320px;
+    width: 100%;
     text-align: center;
     height: 530px;
     margin: 0 auto;
@@ -2444,11 +2445,11 @@
       font-weight: 500;
       letter-spacing: 2px; }
     .foo_sec_logo .contact_info {
-      width: 280px;
-      height: 300px;
-      margin: 40px auto 0; }
+      width: 95%;
+      height: 150px;
+      margin: 0 auto;
+      margin-top: 40px; }
       .foo_sec_logo .contact_info a {
-        width: inherit;
         display: block; }
         .foo_sec_logo .contact_info a img {
           width: 100%; }
