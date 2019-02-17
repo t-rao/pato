@@ -2227,7 +2227,7 @@
             width: 100%; }
   .points {
     width: 100%;
-    height: 1750px;
+    height: 1900px;
     margin: 0 auto;
     background-color: #f8ecda;
     padding-top: 50px; }
@@ -2540,27 +2540,30 @@
       width: 100%;
       margin: 40px auto 0;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-around; }
       .safty_sec .safty_grid_container .grid_item_safty {
-        width: 300px;
-        height: 350px;
-        margin: 0 auto 30px;
-        padding-top: 60px;
+        width: 150px;
+        height: 250px;
+        margin: 0 auto 20px;
+        padding-top: 50px;
         background-image: url("../images/point_01.png");
         background-repeat: no-repeat;
         background-size: cover; }
         .safty_sec .safty_grid_container .grid_item_safty .safty_pic {
-          width: 150px;
+          width: 90px;
           margin: 0 auto; }
           .safty_sec .safty_grid_container .grid_item_safty .safty_pic img {
             width: 100%; }
         .safty_sec .safty_grid_container .grid_item_safty h3 {
-          width: 200px;
+          width: 100px;
+          font-size: 14px;
           text-align: center;
           margin: 30px auto 0;
           font-family: 'Noto Sans JP', sans-serif;
-          color: #ffb529; }
+          color: #ffb529;
+          font-weight: lighter; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
         background-image: url("../images/point_03.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(3) {
