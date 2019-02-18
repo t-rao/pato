@@ -532,7 +532,7 @@
         height: 350px;
         margin: 0 auto 30px;
         padding-top: 60px;
-        background-image: url("../images/point_01.png");
+        background-image: url("../images/bg_01.png");
         background-repeat: no-repeat;
         background-size: cover; }
         .safty_sec .safty_grid_container .grid_item_safty .safty_pic {
@@ -547,11 +547,11 @@
           font-family: 'Noto Sans JP', sans-serif;
           color: #ffb529; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
-        background-image: url("../images/point_03.png"); }
+        background-image: url("../images/bg_02.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(3) {
-        background-image: url("../images/point_02.png"); }
+        background-image: url("../images/bg_03.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(4) {
-        background-image: url("../images/point_04.png"); }
+        background-image: url("../images/bg_04.png"); }
   .banner_02 {
     width: 100%;
     height: 200px;
@@ -1173,7 +1173,7 @@
         height: 350px;
         margin: 0 auto 30px;
         padding-top: 60px;
-        background-image: url("../images/point_01.png");
+        background-image: url("../images/bg_01.png");
         background-repeat: no-repeat;
         background-size: cover; }
         .safty_sec .safty_grid_container .grid_item_safty .safty_pic {
@@ -1188,11 +1188,11 @@
           font-family: 'Noto Sans JP', sans-serif;
           color: #ffb529; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
-        background-image: url("../images/point_03.png"); }
+        background-image: url("../images/bg_02.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(3) {
-        background-image: url("../images/point_02.png"); }
+        background-image: url("../images/bg_03.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(4) {
-        background-image: url("../images/point_04.png"); }
+        background-image: url("../images/bg_04.png"); }
   .banner_02 {
     width: 100%;
     height: 200px;
@@ -1819,7 +1819,7 @@
         height: 350px;
         margin: 0 auto 30px;
         padding-top: 60px;
-        background-image: url("../images/point_01.png");
+        background-image: url("../images/bg_01.png");
         background-repeat: no-repeat;
         background-size: cover; }
         .safty_sec .safty_grid_container .grid_item_safty .safty_pic {
@@ -1834,11 +1834,11 @@
           font-family: 'Noto Sans JP', sans-serif;
           color: #ffb529; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
-        background-image: url("../images/point_03.png"); }
+        background-image: url("../images/bg_02.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(3) {
-        background-image: url("../images/point_02.png"); }
+        background-image: url("../images/bg_03.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(4) {
-        background-image: url("../images/point_04.png"); }
+        background-image: url("../images/bg_04.png"); }
   .banner_02 {
     width: 100%;
     height: 200px;
@@ -2552,7 +2552,7 @@
         height: 250px;
         margin: 0 auto 20px;
         padding-top: 50px;
-        background-image: url("../images/point_01.png");
+        background-image: url("../images/bg_01.png");
         background-repeat: no-repeat;
         background-size: cover; }
         .safty_sec .safty_grid_container .grid_item_safty .safty_pic {
@@ -2569,28 +2569,29 @@
           color: #ffb529;
           font-weight: lighter; }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(2) {
-        background-image: url("../images/point_03.png"); }
+        background-image: url("../images/bg_02.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(3) {
-        background-image: url("../images/point_02.png"); }
+        background-image: url("../images/bg_03.png"); }
       .safty_sec .safty_grid_container .grid_item_safty:nth-child(4) {
-        background-image: url("../images/point_04.png"); }
+        background-image: url("../images/bg_04.png"); }
   .banner_02 {
     width: 100%;
-    height: 200px;
+    height: 188px;
     margin-top: 40px;
     margin-bottom: 40px;
     background-image: url("../images/banner-02.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 200%;
-    padding-top: 75px;
+    background-size: 268%;
+    padding-top: 49px;
     font-weight: 600;
     font-family: 'Noto Sans JP', sans-serif; }
     .banner_02 p {
       width: 200px;
       margin-right: auto;
-      margin-left: 30px;
-      font-weight: lighter; }
+      margin-left: 15px;
+      font-weight: lighter;
+      font-size: 14px; }
     .banner_02 img {
       width: 100%; }
   .foo_sec_logo {
